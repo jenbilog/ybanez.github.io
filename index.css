@@ -151,9 +151,10 @@ table {
 #edu .educ {
   color: #fff;
   background-color: rgb(255, 255, 255);
-  margin: 2px;
-  padding: 50px;
-  height: 135vh;
+  margin: 10px;
+  padding: 70px;
+  padding-bottom: 50px;
+  height: auto;
   table-layout: fixed;
   -webkit-backdrop-filter: blur(0px);
   backdrop-filter: blur(0px);
