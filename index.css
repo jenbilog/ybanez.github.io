@@ -1,22 +1,13 @@
-body {
-  font-family: sans-serif;
-  background: #dedede;
-  padding: 48px;
-}
-
-h1 {
-  text-align: center;
-  display: inline-block;
-  font-size: 72px;
-}
-@import url(https://fonts.googleapis.com/css?family=Poppins:200,
+@import url(
+  https://fonts.googleapis.com/css?family=Poppins:200,
   300,
   400,
   500,
   600,
   700,
   800,
-  900&display=swap);
+  900&display=swap
+);
 * {
   margin: 0;
   padding: 0;
@@ -25,15 +16,11 @@ h1 {
 }
 body {
   overflow-x: hidden;
-  background: url("https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-design-web-developer-thumbnail.jpg");
+  background: url("https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-design-web-developer-thumbnail.jpg?fbclid=IwAR0Z-XFc50suDb_WOca7QU_ykI8q_srtd-pjzNMCGEIUtThfR_oL_8zJyWA");
   background-repeat: no-repeat;
   background-position: 100%;
   background-attachment: fixed;
   background-size: cover;
-}
-
-.h2 {
-  color: #fff;
 }
 
 header {
@@ -44,19 +31,6 @@ header {
   transition: 0.6s;
   padding: 40px 100px;
   align-items: center;
-}
-
-table {
-  color: #fff;
-}
-
-.carousel-slide {
-  color: #000;
-  background-color: #000;
-}
-
-card {
-  background-color: rgb(199, 152, 90);
 }
 
 .logo {
@@ -70,7 +44,7 @@ nav {
   z-index: 1;
 }
 
-nav ul li {
+nav ul li{
   font-size: 20px;
   color: white;
   text-decoration: none;
@@ -82,6 +56,7 @@ nav ul li:hover {
   border: 1px solid #000;
   width: 120px;
   height: 50px;
+ 
 }
 
 section {
@@ -138,19 +113,14 @@ header.sticky nav a {
   background-color: rgba(0, 0, 0, 0.356);
   margin: 10px;
   padding: 50px;
-  height: 118vh;
   table-layout: fixed;
   -webkit-backdrop-filter: blur(0px);
   backdrop-filter: blur(0px);
 }
 
-table {
-  color: #fff;
-}
-
 #edu .educ {
   color: #fff;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.356);
   margin: 10px;
   padding: 70px;
   padding-bottom: 50px;
@@ -179,6 +149,7 @@ table {
   -webkit-backdrop-filter: blur(0px);
   backdrop-filter: blur(0px);
 }
+
 
 #cntct .cont div {
   color: #fff;
@@ -234,6 +205,7 @@ table {
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
+
 }
 .portfolio-item .caption .caption-content h2,
 .portfolio-item .caption .caption-content .h2 {
@@ -250,15 +222,9 @@ table {
     margin: 0;
   }
   .portfolio-item .caption {
-    transition:
-      background-color 0.7s,
-      -webkit-clip-path 0.25s ease-out;
-    transition:
-      clip-path 0.25s ease-out,
-      background-color 0.7s;
-    transition:
-      clip-path 0.25s ease-out,
-      background-color 0.7s,
+    transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out, background-color 0.7s;
+    transition: clip-path 0.25s ease-out, background-color 0.7s,
       -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(0px);
     clip-path: inset(0px);
@@ -274,9 +240,7 @@ table {
   .portfolio-item img {
     transition: -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out;
-    transition:
-      clip-path 0.25s ease-out,
-      -webkit-clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
     clip-path: inset(-1px);
   }
@@ -311,10 +275,11 @@ p {
   font-size: larger;
 }
 
-@media (max-width: 850px) {
-  @media (min-width: 350px) {
-    .portfolio-item .caption .caption-content {
+@media (max-width: 850px){
+  @media (min-width: 350px){
+    .portfolio-item .caption .caption-content{
       position: absolute;
+
     }
   }
 }
