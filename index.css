@@ -1,0 +1,319 @@
+body {
+  font-family: sans-serif;
+  background: #dedede;
+  padding: 48px;
+}
+
+h1 {
+  text-align: center;
+  display: inline-block;
+  font-size: 72px;
+}
+@import url(https://fonts.googleapis.com/css?family=Poppins:200,
+  300,
+  400,
+  500,
+  600,
+  700,
+  800,
+  900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+  background: url("https://e0.pxfuel.com/wallpapers/149/259/desktop-wallpaper-web-design-web-developer-thumbnail.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.h2 {
+  color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: space-around;
+  transition: 0.6s;
+  padding: 40px 100px;
+  align-items: center;
+}
+
+table {
+  color: #fff;
+}
+
+.carousel-slide {
+  color: #000;
+  background-color: #000;
+}
+
+card {
+  background-color: rgb(199, 152, 90);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  z-index: 1;
+}
+
+nav ul li {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  margin-left: 35px;
+  transition: 0.6s;
+}
+
+nav ul li:hover {
+  border: 1px solid #000;
+  width: 120px;
+  height: 50px;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+header.sticky {
+  background-color: gray;
+}
+
+header.sticky a,
+header.sticky nav a {
+  color: black;
+}
+
+.img img {
+  height: 200px;
+  width: 180px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.data {
+  margin: 15px;
+}
+
+.data h1.geto {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.data p {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#home .container {
+  bottom: 25%;
+  position: absolute;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about .prof {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.356);
+  margin: 10px;
+  padding: 50px;
+  height: 118vh;
+  table-layout: fixed;
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+}
+
+table {
+  color: #fff;
+}
+
+#edu .educ {
+  color: #fff;
+  background-color: rgb(255, 255, 255);
+  margin: 2px;
+  padding: 50px;
+  height: 135vh;
+  table-layout: fixed;
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+}
+
+#hob .hobby {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.356);
+  margin: 10px;
+  padding: 50px;
+  table-layout: fixed;
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+}
+
+#fav .fav {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.356);
+  margin: 10px;
+  padding: 50px;
+  table-layout: fixed;
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+}
+
+#cntct .cont div {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.356);
+  margin: 10px;
+  padding: 50px;
+  height: 30vh;
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+}
+
+.container-cntct {
+  position: absolute;
+  bottom: -580vh;
+  left: 15px;
+  width: 200px;
+  height: 400px;
+}
+
+#cntct .prof {
+  position: relative;
+  top: 50%;
+  padding-top: 100%;
+}
+
+.portfolio-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 200px;
+  margin: auto auto 1rem;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-self: center;
+  padding-left: 30px;
+}
+.portfolio-item .caption {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.portfolio-item .caption .caption-content {
+  color: #ffffff;
+  margin: auto 2rem 2rem;
+  padding-top: 5%;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-item .caption .caption-content h2,
+.portfolio-item .caption .caption-content .h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.portfolio-item .caption .caption-content p {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+@media (min-width: 992px) {
+  .portfolio-item {
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-item .caption {
+    transition:
+      background-color 0.7s,
+      -webkit-clip-path 0.25s ease-out;
+    transition:
+      clip-path 0.25s ease-out,
+      background-color 0.7s;
+    transition:
+      clip-path 0.25s ease-out,
+      background-color 0.7s,
+      -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+  }
+  .portfolio-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+    height: 400px;
+    padding-top: 120px;
+  }
+  .portfolio-item img {
+    transition: -webkit-clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out;
+    transition:
+      clip-path 0.25s ease-out,
+      -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+  .portfolio-item:hover img {
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+  .portfolio-item:hover .caption {
+    background-color: rgba(154, 147, 142, 0.9);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+}
+.img-fluid {
+  align-content: center;
+  width: fit-content;
+  width: 500px;
+  height: 400px;
+}
+
+h2 {
+  color: #fff;
+  font-size: larger;
+  align-items: center;
+}
+p {
+  color: #fff;
+}
+
+.timet {
+  color: #fff;
+  font-size: larger;
+}
+
+@media (max-width: 850px) {
+  @media (min-width: 350px) {
+    .portfolio-item .caption .caption-content {
+      position: absolute;
+    }
+  }
+}
